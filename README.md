@@ -1,9 +1,9 @@
 ## So I’m relatively new to Java
 #### First, this is the structure of the code I thought of 
 - Reading the text files..that I have given, Pride and prejudice, and the stopwords file 
-- nThen we do some fine-tuning along like making all the words to lowercase so that it won’t have issues comparing, and also through an error, i have learnt that I should only be considering the words with 2 or more letters so that a or I won’t be counted 
-- So my code checks out these statements one if it has stop words, and if the sentence does not…that will be added to the count…if it’s the same word that has been encountered before, it adds one, and if not, it creates a new word count 
-- As mentioned in the given output, I have noticed that words with the highest count were placed at the top…it took some figuring out on how to sort that…and I discovered that sort() in which I created a custom way to compare tw enties and compare two word cound pairs…the using the getValue()…it arranges that words in decending order…
+- Then we do some fine-tuning along like making all the words to lowercase so that it won’t have issues comparing, and also through an error, i have learnt that I should only be considering the words with 2 or more letters so that a or I won’t be counted 
+- So my code checks out these statements one if it has stop words..in that case those words will be skipped, and if a new word is encountered…that should be added to the count…if it’s the same as the word that has been encountered before, it adds one, and if not, it creates a new word count and should group them all.
+- As mentioned in the given output, I have noticed that words with the highest count were placed at the top...it took some figuring out on how to sort that...and I discovered that `sort()` in which I created a custom way to compare two word count pairs...then by using the `getValue()`...it arranges that words in decending order
 > This was the basic brainstorming session 
 
 ## The file names are as folllows 
