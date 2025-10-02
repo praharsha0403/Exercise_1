@@ -7,7 +7,7 @@ java Main pride-and-prejudice.txt
 
 ## Code Explanation
 #### First, this is the structure of the code I thought of 
-- Reading the text files..that I have given, Pride and prejudice, and the stopwords file 
+- To read the text files..that I have given, Pride and prejudice, and the stopwords file, and do some fine-tuning so that stopwords can be skipped and unique words can be counted
 - Then we do some fine-tuning along like making all the words to lowercase so that it won’t have issues comparing, and also through an error, i have learnt that I should only be considering the words with 2 or more letters so that a or I won’t be counted 
 - So my code checks out these statements one if it has stop words..in that case those words will be skipped, and if a new word is encountered…that should be added to the count…if it’s the same as the word that has been encountered before, it adds one, and if not, it creates a new word count and should group them all.
 - As mentioned in the given output, I have noticed that words with the highest count were placed at the top...it took some figuring out on how to sort that...and I discovered that `sort()` in which I created a custom way to compare two word count pairs...then by using the `getValue()`...it arranges that words in decending order
