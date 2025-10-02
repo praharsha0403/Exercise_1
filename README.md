@@ -1,5 +1,5 @@
-## So I’m relatively new to Java
-### First, this is the structure of the code I thought of 
+### So I’m relatively new to Java
+#### First, this is the structure of the code I thought of 
 - Reading the text files..that I have given, Pride and prejudice, and the stopwords file 
 - nThen we do some fine-tuning along like making all the words to lowercase so that it won’t have issues comparing, and also through an error, i have learnt that I should only be considering the words with 2 or more letters so that a or I won’t be counted 
 - So my code checks out these statements one if it has stop words, and if the sentence does not…that will be added to the count…if it’s the same word that has been encountered before, it adds one, and if not, it creates a new word count 
@@ -32,4 +32,4 @@ Now, to compare and match patterns, I first converted all the letters into lower
 - Now, to make a list of these groups, `wordCounts.entrySet()` gets all the word-count pairs, and new `ArrayList<>(...)` puts them in a list.
 > To sort words by their count, I used `sortedWords.sort()` to compare two entries using `new Comparator<...>()`, and to get descending order, I used `b-a`.
 
-### Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the for loop.
+#### Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the for loop.
