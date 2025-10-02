@@ -1,3 +1,10 @@
+## Commands to run the code 
+
+```
+javac Main.java
+java Main pride-and-prejudice.txt
+```
+
 ## Code Explanation
 #### First, this is the structure of the code I thought of 
 - Reading the text files..that I have given, Pride and prejudice, and the stopwords file 
@@ -33,8 +40,3 @@ Now, to compare and match patterns, I first converted all the letters into lower
 > To sort words by their count, I used `sortedWords.sort()` to compare two entries using `new Comparator<...>()`, and to get descending order, I used `b-a`.
 
 #### Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the 'for loop'.
-
-Commands to run the code 
-
-javac Main.java
-java Main pride-and-prejudice.txt
