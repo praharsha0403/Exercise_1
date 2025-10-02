@@ -1,4 +1,4 @@
-## So I’m relatively new to Java
+## Code Explanation
 #### First, this is the structure of the code I thought of 
 - Reading the text files..that I have given, Pride and prejudice, and the stopwords file 
 - Then we do some fine-tuning along like making all the words to lowercase so that it won’t have issues comparing, and also through an error, i have learnt that I should only be considering the words with 2 or more letters so that a or I won’t be counted 
@@ -32,4 +32,9 @@ Now, to compare and match patterns, I first converted all the letters into lower
 - Now, to make a list of these groups, `wordCounts.entrySet()` gets all the word-count pairs, and new `ArrayList<>(...)` puts them in a list.
 > To sort words by their count, I used `sortedWords.sort()` to compare two entries using `new Comparator<...>()`, and to get descending order, I used `b-a`.
 
-#### Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the for loop.
+#### Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the 'for loop'.
+
+Commands to run the code 
+
+javac Main.java
+java Main pride-and-prejudice.txt
