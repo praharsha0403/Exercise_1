@@ -32,4 +32,4 @@ Now, to compare and match patterns, I first converted all the letters into lower
 - Now, to make a list of these groups, `wordCounts.entrySet()` gets all the word-count pairs, and new `ArrayList<>(...)` puts them in a list.
 > To sort words by their count, I used `sortedWords.sort()` to compare two entries using `new Comparator<...>()`, and to get descending order, I used `b-a`.
 
-> Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the for loop.
+### Then finally, I printed out the top 25 words. To stop at 25, I used `i<25` in the for loop.
